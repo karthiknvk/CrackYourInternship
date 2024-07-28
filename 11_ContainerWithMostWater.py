@@ -9,7 +9,6 @@ class Solution(object):
             area=breadth*length
             max_area=max(max_area,area)
             
-            # Move the pointer corresponding to the smaller line
             if height[left]<height[right]:
                 left=left+1
             else:
