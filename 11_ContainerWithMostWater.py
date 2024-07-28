@@ -16,7 +16,3 @@ class Solution(object):
                 right=right-1
                 
         return max_area
-    
-height = [1,8,6,2,5,4,8,3,7]
-sol=Solution()
-print('max_area',sol.maxArea(height))
