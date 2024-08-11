@@ -12,7 +12,3 @@ class Solution(object):
                 if flag==True:
                     return i
         return -1
-sol=Solution()
-haystack = "sedbutsad"
-needle = "sad"
-print(sol.strStr(haystack,needle))
